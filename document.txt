@@ -1,0 +1,8 @@
+create model
+
+php artisan make:model Conversation -mfsc
+php artisan make:model Message -mfsc
+php artisan make:model Partisipant -mfsc
+
+php artisan make:livewire /message/message-list
+php artisan make:livewire /user/user-list
